@@ -1,0 +1,1217 @@
+@font-face {
+    font-family: "Font_katakana";
+    src: url('../font/katakana.ttf');
+}
+
+body {
+    background-color: white;
+}
+
+.but_entry {
+    background-color: rgb(31, 43, 118);
+    font-weight: bold;
+}
+
+.katakana {
+    font-family: "Font_katakana";
+}
+
+h2 {
+    font-size: 77px;
+    color: rgb(31, 43, 118)
+}
+
+h3 {
+    font-size: 43px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.p_abu {
+    font-size: 18px;
+    color: gray;
+}
+
+.s5ths,
+.m5ths,
+.l5ths,
+.xl5ths {
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s5ths {
+    width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+    .row .col.m5ths {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .row .col.l5ths {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .row .col.xl5ths {
+        width: 20%;
+    }
+}
+
+@media (min-width:992px) {
+    .txt_jumbotron {
+        text-align: center;
+        color: white;
+        font-size: 80px;
+        font-weight: bold;
+        position: absolute;
+        top: 342px;
+        left: 25%;
+    }
+    .jumbotron_img {
+        width: 100%;
+        height: 930px;
+    }
+    .card {
+        width: 320px;
+        height: 520px;
+        background-color: white;
+    }
+    .text_card_jumbotron {
+        margin-bottom: 0%;
+        top: 793px;
+        position: absolute;
+        left: 20%;
+        width: 1021px;
+        height: 153px;
+    }
+    .text_card_jumbotron div {
+        font-size: 43px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(22, 17, 83);
+    }
+    .content p {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Font_katakana";
+    }
+    .p1 div {
+        color: white;
+        text-align: center;
+    }
+    .p2 {
+        background-image: url("../img/bg_panel2.png");
+        height: 521px;
+    }
+    .p2 div {
+        color: white;
+        text-align: center;
+    }
+    .p3 {
+        background-image: url("../img/bg_panel3.png");
+        height: 521px;
+    }
+    .p3 div {
+        color: white;
+        text-align: center;
+    }
+    .p4 {
+        background-image: url("../img/bg_panel4.png");
+        height: 521px;
+    }
+    .p4 div {
+        color: white;
+        text-align: center;
+    }
+    .p5 {
+        background-image: url("../img/bg_panel5.png");
+        height: 521px;
+    }
+    .p5 div {
+        color: white;
+        text-align: center;
+    }
+    div.transbox p {
+        margin: 30%;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+    }
+    .text_tengah {
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -o-transform: translate(-50%);
+    }
+    .panel_100 {
+        width: 1120px;
+        height: 300px;
+        position: relative;
+        top: 98px;
+        background-image: url("../img/レイヤー\ 7.png");
+    }
+    .panel_100 center {
+        position: inherit;
+        top: 100px;
+    }
+    .panel_100 h3 {
+        color: white;
+    }
+    .panel_100 p {
+        color: white;
+    }
+    .more {
+        position: inherit;
+        top: 20px;
+        left: 43%
+    }
+    .projek_story {
+        position: relative;
+        top: 200px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .projek_story img {
+        width: 1075px;
+        height: 480px;
+    }
+    .projek_story h2 {
+        position: relative;
+        top: 167px;
+        LEFT: 2%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .col_btn_ps {
+        position: relative;
+        top: -96px;
+        width: 681.4px;
+        left: 60%;
+    }
+    .btn-ps {
+        z-index: 3;
+        top: 400px;
+        left: 46%;
+        position: absolute;
+        width: 681px;
+        height: 81px;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps2 {
+        z-index: 3;
+        width: 681px;
+        height: 81px;
+        position: relative;
+        top: 17px;
+        left: 46%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps i {
+        color: white;
+        position: relative;
+        left: 50%;
+    }
+    .btn-ps2 i {
+        color: white;
+        position: inherit;
+        left: 50%;
+    }
+    .work_style {
+        position: relative;
+        top: 313px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .work_style img {
+        width: 1075px;
+        height: 480px;
+    }
+    .work_style h2 {
+        position: relative;
+        left: 7%;
+        top: 165px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-ws {
+        z-index: 3;
+        width: 681px;
+        height: 81px;
+        position: relative;
+        top: -44px;
+        left: 8%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ws i {
+        color: white;
+        position: inherit;
+        left: 50%;
+    }
+    .interview {
+        position: relative;
+        top: 386px;
+        background-image: url("../img/bg_gray4.jpg");
+        background-repeat: no-repeat;
+    }
+    .interview img {
+        width: 550px;
+        height: 420px;
+        position: relative;
+        left: 12%;
+    }
+    .interview h2 {
+        position: relative;
+        left: 7%;
+        top: 146px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-i-1 {
+        position: relative;
+        top: 315px;
+        width: 51px;
+        height: 51px;
+        left: 12%;
+        background-color: rgb(25, 52, 230);
+    }
+    .btn-i-2 {
+        position: absolute;
+        top: 368px;
+        left: 81.5%;
+        z-index: 3;
+        width: 51px;
+        height: 51px;
+        background-color: rgb(25, 52, 230);
+    }
+    .n_interview {
+        position: relative;
+        left: 7.5%;
+        top: -156px;
+    }
+    .b_interview {
+        position: inherit;
+        top: -132px;
+        left: 20%;
+    }
+    .c_interview-1 {
+        width: 551px;
+        height: 70px;
+    }
+    .c_interview-1 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-1 div i {
+        position: relative;
+        left: 60%;
+    }
+    .c_interview-2 {
+        width: 551px;
+        height: 70px;
+        position: inherit;
+        left: 2%;
+    }
+    .c_interview-2 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-2 div i {
+        position: relative;
+        left: 60%;
+    }
+    .panel_4 {
+        position: relative;
+        top: 375px;
+    }
+    .r_panel_4 {
+        position: absolute;
+        top: 154px;
+        left: 11%;
+    }
+    .panel_4 img {
+        z-index: 1;
+        width: 1600px;
+        height: 820px;
+    }
+    .r_panel_4 img {
+        width: 551px;
+        height: 301px;
+    }
+    .r_panel_4-2 {
+        position: absolute;
+        top: 466px;
+        left: 11%;
+    }
+    .r_panel_4-2 img {
+        width: 551px;
+        height: 301px;
+    }
+    .r_panel_4 p {
+        width: 551px;
+        height: 81px;
+    }
+    .r_panel_4-2 p {
+        width: 551px;
+        height: 81px;
+    }
+    .cards1 button {
+        position: absolute;
+        top: 245px;
+        left: 1%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards2 button {
+        position: absolute;
+        top: 245px;
+        left: 52%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards3 button {
+        position: absolute;
+        top: 245px;
+        left: 1%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards4 button {
+        position: absolute;
+        top: 245px;
+        left: 52%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .blog {
+        position: relative;
+        top: 496px;
+    }
+    .b_row {
+        position: relative;
+        left: 13%;
+    }
+    .b_row p {
+        text-align: justify;
+    }
+    .recruit {
+        position: relative;
+        top: 584px;
+    }
+    .r_row {
+        position: relative;
+        left: 13%;
+        z-index: 2;
+    }
+    .r_row div img {
+        width: 267px;
+        height: 265px;
+    }
+    .r_row div p {
+        position: relative;
+        top: -64px;
+    }
+    .bottom {
+        position: relative;
+        top: 440px;
+        z-index: 1;
+    }
+    .btn-buttom {
+        z-index: 3;
+        position: relative;
+        top: -156px;
+        width: 361px;
+        height: 81px;
+        text-decoration-color: white;
+        font-size: 21px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(22, 17, 83);
+    }
+    footer {
+        position: relative;
+        top: 176px;
+        z-index: 2;
+    }
+    .bg-dark-blue {
+        background-color: rgb(22, 17, 83);
+        width: 1600px;
+    }
+    .p1 {
+        background-image: url("../img/bg_panel1.png");
+        height: 521px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .txt_jumbotron {
+        text-align: center;
+        color: white;
+        font-size: 80px;
+        font-weight: bold;
+        position: absolute;
+        top: 342px;
+        left: 25%;
+    }
+    .jumbotron_img {
+        width: 100%;
+        height: 930px;
+    }
+    .card {
+        width: 320px;
+        height: 520px;
+        background-color: white;
+    }
+    .text_card_jumbotron {
+        margin-bottom: 0%;
+        top: 838px;
+        position: relative;
+        left: 18%;
+        width: 468px;
+        height: 100px;
+    }
+    .text_card_jumbotron div {
+        font-size: 43px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(22, 17, 83);
+        position: relative;
+        top: -57px;
+    }
+    .content p {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Font_katakana";
+    }
+    .p1 {
+        background-image: url("../img/bg_panel1.png");
+        height: 521px;
+    }
+    .p1 div,
+    .p2 div,
+    .p3 div,
+    .p4 div,
+    .p5 div {
+        color: white;
+        text-align: center;
+    }
+    .p2 {
+        background-image: url("../img/bg_panel2.png");
+        height: 521px;
+    }
+    .p3 {
+        background-image: url("../img/bg_panel3.png");
+        height: 521px;
+    }
+    .p4 {
+        background-image: url("../img/bg_panel4.png");
+        height: 521px;
+    }
+    .p5 {
+        background-image: url("../img/bg_panel5.png");
+        height: 521px;
+    }
+    div.transbox p {
+        margin: 30%;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+    }
+    .text_tengah {
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -o-transform: translate(-50%);
+    }
+    .panel_100 {
+        width: 680px;
+        height: 300px;
+        position: relative;
+        top: 98px;
+        background-image: url("../img/レイヤー\ 7.png");
+    }
+    .panel_100 center {
+        position: inherit;
+        top: 100px;
+    }
+    .panel_100 h3 {
+        color: white;
+    }
+    .panel_100 p {
+        color: white;
+    }
+    .more {
+        position: inherit;
+        top: 20px;
+        left: 43%
+    }
+    .projek_story {
+        position: relative;
+        top: 200px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .projek_story img {
+        width: 600px;
+        height: 480px;
+    }
+    .projek_story h2 {
+        position: relative;
+        top: 167px;
+        right: 3%;
+        font-size: 68px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .col_btn_ps {
+        position: relative;
+        top: -96px;
+        width: 681.4px;
+    }
+    .btn-ps {
+        z-index: 3;
+        top: 400px;
+        left: 20%;
+        position: absolute;
+        width: 681px;
+        height: 81px;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps2 {
+        z-index: 3;
+        width: 681px;
+        height: 81px;
+        position: relative;
+        top: 17px;
+        left: 21%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps i {
+        color: white;
+        position: relative;
+        left: 50%;
+    }
+    .btn-ps2 i {
+        color: white;
+        position: inherit;
+        left: 50%;
+    }
+    .work_style {
+        position: relative;
+        top: 313px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .work_style img {
+        width: 100%;
+        height: 480px;
+    }
+    .work_style h2 {
+        position: relative;
+        left: 7%;
+        font-size: 67px;
+        top: 165px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-ws {
+        z-index: 3;
+        width: 681px;
+        height: 81px;
+        position: relative;
+        top: -44px;
+        left: 8%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ws i {
+        color: white;
+        position: inherit;
+        left: 50%;
+    }
+    .interview {
+        position: relative;
+        top: 386px;
+        background-image: url("../img/bg_gray4.jpg");
+        background-repeat: no-repeat;
+    }
+    .interview img {
+        width: 410px;
+        height: 320px;
+        position: relative;
+        left: 18.5%;
+    }
+    .interview h2 {
+        position: relative;
+        left: 7%;
+        font-size: 67px;
+        top: 146px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-i-1 {
+        position: relative;
+        top: 330px;
+        width: 51px;
+        height: 51px;
+        left: 12%;
+        background-color: rgb(25, 52, 230);
+    }
+    .btn-i-2 {
+        position: absolute;
+        top: 331px;
+        left: 81.5%;
+        z-index: 3;
+        width: 51px;
+        height: 51px;
+        background-color: rgb(25, 52, 230);
+    }
+    .n_interview {
+        position: relative;
+        left: 7.5%;
+        top: -73px;
+    }
+    .b_interview {
+        position: inherit;
+        top: -77px;
+        left: 20%;
+    }
+    .c_interview-1 {
+        width: 551px;
+        height: 70px;
+    }
+    .c_interview-1 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-1 div i {
+        position: relative;
+    }
+    .c_interview-2 {
+        width: 551px;
+        height: 70px;
+        position: inherit;
+        left: 2%;
+    }
+    .c_interview-2 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-2 div i {
+        position: relative;
+    }
+    .panel_4 {
+        position: relative;
+        top: 375px;
+    }
+    .r_panel_4 {
+        position: absolute;
+        top: 154px;
+        left: 11%;
+    }
+    .panel_4 img {
+        z-index: 1;
+        height: 820px;
+        width: 100%;
+    }
+    .r_panel_4 img,
+    .r_panel_4-2 img {
+        width: 275.5px;
+        height: 150.5px;
+    }
+    .r_panel_4-2 {
+        position: absolute;
+        top: 466px;
+        left: 11%;
+    }
+    .r_panel_4 p,
+    .r_panel_4-2 p {
+        width: 551px;
+        height: 81px;
+    }
+    .cards1 button,
+    .cards3 button {
+        position: absolute;
+        top: 113px;
+        left: 1%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards2 button,
+    .cards4 button {
+        position: absolute;
+        top: 113px;
+        left: 52%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .blog {
+        position: relative;
+        top: 496px;
+        width: 80%;
+    }
+    .b_row {
+        position: relative;
+        left: 13%;
+    }
+    .b_row p {
+        text-align: justify;
+    }
+    .recruit {
+        position: relative;
+        top: 584px;
+        width: 80%;
+    }
+    .r_row {
+        position: relative;
+        left: 13%;
+        z-index: 2;
+    }
+    .r_row div img {
+        width: 267px;
+        height: 265px;
+    }
+    .r_row div p {
+        position: relative;
+        top: -64px;
+    }
+    .bottom {
+        position: relative;
+        top: 568px;
+        z-index: 1;
+        width: 100%;
+    }
+    .bottom img {
+        width: 100%;
+    }
+    .btn-buttom {
+        z-index: 3;
+        position: relative;
+        top: -156px;
+        width: 361px;
+        height: 81px;
+        text-decoration-color: white;
+        font-size: 21px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(22, 17, 83);
+    }
+    footer {
+        position: relative;
+        top: 242px;
+        z-index: 2;
+    }
+    .bg-dark-blue {
+        background-color: rgb(22, 17, 83);
+        width: 100%;
+        height: 83px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .txt_jumbotron {
+        text-align: center;
+        color: white;
+        font-size: 80px;
+        font-weight: bold;
+        position: absolute;
+        top: 342px;
+        left: 25%;
+    }
+    .jumbotron_img {
+        width: 100%;
+        height: 930px;
+    }
+    .card {
+        width: 320px;
+        height: 520px;
+        background-color: white;
+    }
+    .text_card_jumbotron {
+        margin-bottom: 0%;
+        top: 858px;
+        position: relative;
+        left: 18%;
+        width: 66%;
+        height: 79px;
+    }
+    .text_card_jumbotron div {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(22, 17, 83);
+        position: relative;
+        top: -57px;
+    }
+    .content p {
+        font-size: 15px;
+        text-align: center;
+        font-family: "Font_katakana";
+    }
+    .p1 {
+        background-image: url("../img/bg_panel1.png");
+        height: 521px;
+    }
+    .p1 div,
+    .p2 div,
+    .p3 div,
+    .p4 div,
+    .p5 div {
+        color: white;
+        text-align: center;
+    }
+    .p2 {
+        background-image: url("../img/bg_panel2.png");
+        height: 521px;
+    }
+    .p3 {
+        background-image: url("../img/bg_panel3.png");
+        height: 521px;
+    }
+    .p4 {
+        background-image: url("../img/bg_panel4.png");
+        height: 521px;
+    }
+    .p5 {
+        background-image: url("../img/bg_panel5.png");
+        height: 521px;
+    }
+    div.transbox p {
+        margin: 30%;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+    }
+    .text_tengah {
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -o-transform: translate(-50%);
+    }
+    .panel_100 {
+        width: 100%;
+        position: relative;
+        top: 98px;
+        background-image: url("../img/レイヤー\ 7.png");
+    }
+    .panel_100 center {
+        position: inherit;
+        top: 20px;
+    }
+    .panel_100 h3 {
+        color: white;
+        font-size: 20px;
+    }
+    .panel_100 p {
+        color: white;
+    }
+    .more {
+        position: inherit;
+        top: 20px;
+        left: 43%
+    }
+    .projek_story {
+        position: relative;
+        top: 200px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .projek_story img {
+        width: 100%;
+    }
+    .projek_story h2 {
+        position: relative;
+        top: 7px;
+        right: 8%;
+        font-size: 23px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .col_btn_ps {
+        position: relative;
+        top: -96px;
+        width: 681.4px;
+    }
+    .btn-ps {
+        z-index: 3;
+        top: 17px;
+        left: 5%;
+        position: relative;
+        width: 200px;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps2 {
+        z-index: 3;
+        width: 200px;
+        position: relative;
+        top: 22px;
+        left: 5%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ps i {
+        color: white;
+        position: relative;
+    }
+    .btn-ps2 i {
+        color: white;
+        position: inherit;
+    }
+    .work_style {
+        position: relative;
+        top: 313px;
+        background-image: url("../img/bg_gray2.jpg");
+        background-repeat: no-repeat;
+    }
+    .work_style img {
+        width: 100%;
+    }
+    .work_style h2 {
+        position: relative;
+        left: 7%;
+        font-size: 23px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-ws {
+        z-index: 3;
+        width: 200px;
+        position: relative;
+        top: 25px;
+        left: 7%;
+        text-align: justify;
+        text-decoration-color: white;
+        font-size: 14px;
+        background-color: rgb(22, 17, 83);
+    }
+    .btn-ws i {
+        color: white;
+        position: inherit;
+    }
+    .interview {
+        position: relative;
+        top: 386px;
+        background-image: url("../img/bg_gray4.jpg");
+        background-repeat: no-repeat;
+    }
+    .interview img {
+        width: 180px;
+        height: 140px;
+        position: relative;
+        left: 17.5%;
+        top: 163px;
+    }
+    .interview h2 {
+        position: relative;
+        left: 4%;
+        font-size: 23px;
+        top: 178px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn-i-1 {
+        position: relative;
+        top: 310px;
+        width: 31px;
+        z-index: 3;
+        height: 31px;
+        left: 8%;
+        background-color: rgb(25, 52, 230);
+    }
+    .btn-i-2 {
+        position: absolute;
+        top: 311px;
+        left: 75.5%;
+        z-index: 3;
+        width: 31px;
+        height: 31px;
+        background-color: rgb(25, 52, 230);
+    }
+    .n_interview {
+        position: relative;
+        left: 7.5%;
+        top: 119px;
+    }
+    .n_interview h4 {
+        font-size: 17px;
+    }
+    .n_interview p {
+        font-size: 16px;
+    }
+    .b_interview {
+        position: inherit;
+        top: 57px;
+        left: 23%;
+    }
+    .c_interview-1 {
+        width: 100%;
+        height: 102px;
+    }
+    .c_interview-1 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-1 div p {
+        position: relative;
+        top: -31px;
+    }
+    .c_interview-1 div p i {
+        position: relative;
+    }
+    .c_interview-2 {
+        width: 551px;
+        height: 102px;
+        position: inherit;
+        left: 2%;
+    }
+    .c_interview-2 div {
+        color: rgb(25, 52, 230);
+    }
+    .c_interview-2 div p {
+        position: relative;
+        top: -31px;
+    }
+    .c_interview-2 div p i {
+        position: relative;
+    }
+    .panel_4 {
+        position: relative;
+        top: 530px;
+    }
+    .r_panel_4 {
+        position: absolute;
+        top: 154px;
+        left: 11%;
+    }
+    .panel_4 img {
+        z-index: 1;
+        height: 820px;
+        width: 100%;
+    }
+    .r_panel_4 img,
+    .r_panel_4-2 img {
+        width: 275.5px;
+        height: 150.5px;
+    }
+    .r_panel_4-2 {
+        position: absolute;
+        top: 466px;
+        left: 11%;
+    }
+    .r_panel_4 p,
+    .r_panel_4-2 p {
+        width: 551px;
+        height: 81px;
+    }
+    .cards1 button,
+    .cards3 button {
+        position: absolute;
+        top: 113px;
+        left: 1%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .cards2 button,
+    .cards4 button {
+        position: absolute;
+        top: 259px;
+        left: 1%;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .blog {
+        position: relative;
+        top: 579px;
+        width: 80%;
+    }
+    .blog center h2 {
+        font-size: 26px;
+    }
+    .b_row {
+        position: relative;
+        left: 13%;
+    }
+    .b_row p {
+        text-align: justify;
+        font-size: 17px;
+    }
+    .recruit {
+        position: relative;
+        top: 584px;
+        width: 80%;
+    }
+    .recruit center h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .r_row {
+        position: relative;
+        left: 13%;
+        z-index: 2;
+    }
+    .r_row div img {
+        width: 267px;
+        height: 265px;
+    }
+    .r_row div p {
+        position: relative;
+        top: -64px;
+    }
+    .bottom {
+        position: relative;
+        top: 568px;
+        z-index: 1;
+        width: 100%;
+    }
+    .bottom img {
+        width: 100%;
+    }
+    .btn-buttom {
+        z-index: 3;
+        position: relative;
+        top: -67px;
+        width: 30%;
+        text-decoration-color: white;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(22, 17, 83);
+    }
+    footer {
+        position: relative;
+        top: 264px;
+        z-index: 2;
+    }
+    .bg-dark-blue {
+        background-color: rgb(22, 17, 83);
+        width: 100%;
+        height: 83px;
+    }
+}
